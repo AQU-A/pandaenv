@@ -1,0 +1,18 @@
+Started by user [8mha:////4BO6rCEtIhmvdM2abnBQZrfMR9bBXfH6uKHMX+hv8S6DAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9gsS8lEQA7ptgJcAAAAA=[0mAQU_panda
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Maven
+using credential GitHubRepoApp
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/AQU-A/PandaAplikacja.git # timeout=10
+Fetching upstream changes from https://github.com/AQU-A/PandaAplikacja.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials PandaAppRepo
+ > git fetch --tags --force --progress -- https://github.com/AQU-A/PandaAplikacja.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse origin/master^{commit} # timeout=10
+Checking out Revision d566c6dc512514f85222ecf940bc5502042131bc (origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d566c6dc512514f85222ecf940bc5502042131bc # timeout=10
+Commit message: "finish release 2.0.0"
+First time build. Skipping changelog.
+Finished: SUCCESS

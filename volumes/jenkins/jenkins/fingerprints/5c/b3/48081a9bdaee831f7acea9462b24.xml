@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-13 11:49:30.421 UTC</timestamp>
+  <md5sum>5cb348081a9bdaee831f7acea9462b24</md5sum>
+  <fileName>Credential id=dbb6fe18-0634-4c9b-be1e-e88d1c726e40 name=panda/******</fileName>
+  <usages>
+    <entry>
+      <string>Test_Panda</string>
+      <ranges>2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,56 @@
+2020-05-22T18:44:27.786Z [jfmd ] [INFO ] [4844566ac1782144] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 5 seconds with 2m0s timeout [init]
+2020-05-22T18:44:32.792Z [jfmd ] [INFO ] [4844566ac1782144] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 10 seconds with 2m0s timeout [init]
+2020-05-22T18:44:37.799Z [jfmd ] [INFO ] [4844566ac1782144] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 15 seconds with 2m0s timeout [init]
+2020-05-22T18:44:42.805Z [jfmd ] [INFO ] [4844566ac1782144] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 20 seconds with 2m0s timeout [init]
+2020-05-22T18:44:47.808Z [jfmd ] [INFO ] [4844566ac1782144] [security_keys.go:128          ] [main                ] - Cluster join: Join key is missing. Pending for 25 seconds with 2m0s timeout [init]
+2020-05-22T18:44:52.815Z [jfmd ] [INFO ] [4844566ac1782144] [security_keys.go:128          ] [main                ] - Cluster join: Join key is missing. Pending for 30 seconds with 2m0s timeout [init]
+2020-05-22T18:44:53.818Z [jfmd ] [INFO ] [4844566ac1782144] [database_bearer.go:71         ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2020-05-22T18:44:53.866Z [jfmd ] [INFO ] [4844566ac1782144] [migrator.go:62                ] [main                ] - Applying 36 migrations files [database]
+2020-05-22T18:44:54.568Z [jfmd ] [INFO ] [4844566ac1782144] [migrator.go:80                ] [main                ] - Applied 128 database migrations statements [database]
+2020-05-22T18:44:54.572Z [jfmd ] [INFO ] [4844566ac1782144] [application.go:73             ] [main                ] - Metadata (jfmd) service initialization started. Version: 2.4.5 Revision: 20405900 PID: 3124 Home: /opt/jfrog/artifactory/var [app_initializer]
+2020-05-22T18:44:54.580Z [jfmd ] [INFO ] [4844566ac1782144] [server_bearer.go:155          ] [main                ] - Created service_id and pushed to store: jfmd@01e8yv7mndxrnmd1h5qa49rj3r [ServerInit]
+2020-05-22T18:44:58.612Z [jfmd ] [INFO ] [4844566ac1782144] [accessclient.go:51            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-05-22T18:45:03.620Z [jfmd ] [INFO ] [4844566ac1782144] [accessclient.go:51            ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get http://localhost:8046/access/api/v1/system/ping: dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-05-22T18:45:08.630Z [jfmd ] [INFO ] [4844566ac1782144] [accessclient.go:51            ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Failed to access :http://localhost:8046/access/api/v1/system/ping return status code : 404 [access_client]
+2020-05-22T18:45:10.954Z [jfmd ] [INFO ] [4844566ac1782144] [accessclient.go:51            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2020-05-22T18:45:10.955Z [jfmd ] [INFO ] [4844566ac1782144] [accessclient.go:51            ] [main                ] - Executing Router register at: localhost:8046 [access_client]
+2020-05-22T18:45:10.974Z [jfmd ] [INFO ] [4844566ac1782144] [router_middlewares.go:57      ] [main                ] - 
+
+Go Info
+========================
+
+Working Directory                                    | /opt/jfrog/artifactory/var
+Hostname                                             | ecba941ecde0
+GOROOT                                               | /
+GOPATH                                               | 
+PATH                                                 | /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/busybox:/curl:/opt/jfrog/artifactory/app/third-party/java/bin
+GOMAXPROCS                                           | 4
+
+2020-05-22T18:45:10.982Z [jfmd ] [INFO ] [4844566ac1782144] [router_middlewares.go:58      ] [main                ] - 
+Metadata Info
+========================
+
+Shared.NewRelic.EnableDebugLog                       | false
+Shared.NewRelic.DistributedTracerEnabled             | true
+Logging.Request.Rotation.Compress                    | true
+Database.Type                                        | 0
+Keys.ReadAttempts                                    | 120
+Keys.ReadIntervalDuration                            | 1s
+Shared.NewRelic.LicenseKey                           | 
+Logging.Application.Level                            | info
+Logging.Application.Rotation.Compress                | true
+Logging.Request.Rotation.MaxSizeMb                   | 25
+Logging.Request.Rotation.MaxFiles                    | 10
+Logging.Request.Rotation.MaxAgeDays                  | 365
+Shared.NewRelic.Enabled                              | false
+Logging.Application.FilePath                         | metadata-service.log
+Logging.Application.Rotation.MaxSizeMb               | 25
+Logging.Application.Rotation.MaxFiles                | 10
+Logging.Application.Rotation.MaxAgeDays              | 365
+AccessClient.Url                                     | http://localhost:8081/access
+Profiling.Enabled                                    | false
+Shared.NewRelic.AppName                              | 
+Logging.Request.FilePath                             | metadata-request.log
+Port                                                 | 8086
+
+2020-05-22T18:45:10.983Z [jfmd ] [INFO ] [4844566ac1782144] [router_middlewares.go:59      ] [main                ] - Metadata (jfmd) service initialization completed in 16.409 seconds. Listening on port: 8086 [router]

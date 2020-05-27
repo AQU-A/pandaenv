@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-13 11:35:35.565 UTC</timestamp>
+  <md5sum>3e2801b6b762b57e2e905ff65c8be68e</md5sum>
+  <fileName>Credential id=panda name=jenkins</fileName>
+  <usages>
+    <entry>
+      <string>Test_Docker</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

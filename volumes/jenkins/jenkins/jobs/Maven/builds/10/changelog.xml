@@ -1,0 +1,11 @@
+commit 544850ab672a52f3ddeefbaaeba8f541fd523208
+tree f3ab4e6c2299e2f32cd20e0b6ba358ffffd5d7e0
+parent fba44bd78fd39c67b95a8ae40844c9c9c1a4d52e
+author AQU-A <agnieszkaakula@gmial.com> 2020-05-15 20:45:43 +0200
+committer AQU-A <agnieszkaakula@gmial.com> 2020-05-15 20:45:43 +0200
+
+    dockerfile i pom new
+
+
+:000000 100644 0000000000000000000000000000000000000000 76370e0c364bc36b76a2fb04b1221eaaa7d98189 A	Dockerfile
+:100644 100644 d1942acece8be194596e5cad2c414a48b1fa2643 3031a799daf093b9e49ed5ac383526d125f29366 M	pom.xml

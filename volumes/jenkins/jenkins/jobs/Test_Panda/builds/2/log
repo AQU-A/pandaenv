@@ -1,0 +1,19 @@
+Started by user [8mha:////4BO6rCEtIhmvdM2abnBQZrfMR9bBXfH6uKHMX+hv8S6DAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9gsS8lEQA7ptgJcAAAAA=[0mAQU_panda
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Test_Panda
+using credential dbb6fe18-0634-4c9b-be1e-e88d1c726e40
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.PandaAplikacja.url https://github.com/AQU-A/PandaAplikacja.git # timeout=10
+Fetching upstream changes from https://github.com/AQU-A/PandaAplikacja.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/AQU-A/PandaAplikacja.git +refs/heads/*:refs/remotes/PandaAplikacja/* # timeout=10
+ > git rev-parse refs/remotes/PandaAplikacja/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/PandaAplikacja/PandaAplikacja/master^{commit} # timeout=10
+Checking out Revision ae27beae7b3816528a2f498fca34fab7797eddc0 (refs/remotes/PandaAplikacja/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ae27beae7b3816528a2f498fca34fab7797eddc0 # timeout=10
+Commit message: "Finish release 0.0.1"
+ > git rev-list --no-walk ae27beae7b3816528a2f498fca34fab7797eddc0 # timeout=10
+Finished: SUCCESS

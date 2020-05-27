@@ -1,0 +1,6 @@
+[filesystem "panda-VirtualBox|Ubuntu|11.0.6|/dev/sda1"]
+	timestampResolution = 1217 microseconds
+	minRacyThreshold = 12495 microseconds
+[filesystem "panda-VirtualBox|Ubuntu|11.0.7|/dev/sda1"]
+	timestampResolution = 1530 microseconds
+	minRacyThreshold = 6349 microseconds

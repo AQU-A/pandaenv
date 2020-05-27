@@ -1,0 +1,25 @@
+Started by user [8mha:////4BO6rCEtIhmvdM2abnBQZrfMR9bBXfH6uKHMX+hv8S6DAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9gsS8lEQA7ptgJcAAAAA=[0mAQU_panda
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Test_Docker
+using credential panda
+Cloning the remote Git repository
+Cloning repository https://github.com/AQU-A/DockerTest.git
+ > git init /var/lib/jenkins/workspace/Test_Docker # timeout=10
+Fetching upstream changes from https://github.com/AQU-A/DockerTest.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/AQU-A/DockerTest.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/AQU-A/DockerTest.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/AQU-A/DockerTest.git # timeout=10
+Fetching upstream changes from https://github.com/AQU-A/DockerTest.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/AQU-A/DockerTest.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 46b0b3bbcf1e2a6cff4bcfcc49494aa2c4c0adc5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 46b0b3bbcf1e2a6cff4bcfcc49494aa2c4c0adc5 # timeout=10
+Commit message: "Dockerfile added"
+First time build. Skipping changelog.
+Finished: SUCCESS

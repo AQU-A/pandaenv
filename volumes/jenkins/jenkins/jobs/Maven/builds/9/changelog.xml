@@ -1,0 +1,10 @@
+commit 0ed0ae3523094ae078743bdce6b49225dbbc74cb
+tree 9809d2e9d5b9fb3bb64bc17e39bf02e73bb835f8
+parent d566c6dc512514f85222ecf940bc5502042131bc
+author AQU-A <agnieszkaakula@gmial.com> 2020-05-13 19:59:39 +0200
+committer AQU-A <agnieszkaakula@gmial.com> 2020-05-13 19:59:39 +0200
+
+    pom change artifactory added
+
+
+:100644 100644 6bee509e73d6b738d883f3ee35df8b6b1213acb9 c35cbc5d1d784ee6a53e7a85aca1087f4e6c4247 M	pom.xml
